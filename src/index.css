@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bgImg{
+    background-image: url(/body-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-blend-mode: multiply;
+    background-color: rgb(146, 146, 146);
+    /* background-attachment: fixed; */
+}
