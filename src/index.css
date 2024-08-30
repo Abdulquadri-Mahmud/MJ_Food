@@ -8,11 +8,11 @@
     background-size: cover;
     background-position: top;
     background-blend-mode: multiply;
-    background-color: rgb(128, 126, 126);
-    background-attachment: fixed;
+    background-color: rgb(167, 166, 166);
+    /* background-attachment: fixed; */
 }
 .bgImg2{
-    background-color: rgb(48, 47, 47);
+    background-color: rgb(94, 92, 92);
     background-attachment: fixed;
 }
 .bgImg3{
