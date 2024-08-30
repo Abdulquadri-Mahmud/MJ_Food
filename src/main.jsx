@@ -8,6 +8,6 @@ createRoot(document.getElementById('root')).render(
   <ChakraProvider>
     <StrictMode>
       <App />
-    </StrictMode>,
+    </StrictMode>
   </ChakraProvider>
 )

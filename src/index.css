@@ -8,6 +8,40 @@
     background-size: cover;
     background-position: top;
     background-blend-mode: multiply;
-    background-color: rgb(146, 146, 146);
-    /* background-attachment: fixed; */
+    background-color: rgb(128, 126, 126);
+    background-attachment: fixed;
+}
+.bgImg2{
+    background-color: rgb(48, 47, 47);
+    background-attachment: fixed;
+}
+.bgImg3{
+    background-image: url(/contact-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-blend-mode: multiply;
+    /* background-color: rgb(128, 126, 126); */
+    background-attachment: fixed;
+}
+
+.move{
+    animation: move 2s linear alternate infinite;
+    position: absolute;
+    top: 0px;
+}
+
+@keyframes move {
+    from{
+        left: 80px;
+    }to{
+        left: 0px;
+    }
+}
+
+ul{
+    padding-left: 20px;
+}
+ul li{
+    list-style-type:disc;
 }

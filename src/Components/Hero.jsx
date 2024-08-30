@@ -4,10 +4,13 @@ import { IoFastFoodOutline } from 'react-icons/io5'
 
 export default function Hero() {
   return (
-    <div className='h-[90vh] bgImg md:p-10 py-6 px-4'>
+    <div id='home' className='md:h-[100vh] h-[90vh] bgImg md:p-10 py-6 px-4'>
       <div className="h-full md:w-[60%] md:mx-auto flex justify-center items-center">
-        <div className="text-white md:text-center">
-          <h1 className='md:text-7xl text-4xl'>Delicious & Mouth Watering Test</h1>
+        <div className="text-white text-center">
+          <h1 className='md:text-6xl text-4xl'>Find The Best Restaurants Cafes And Bars in</h1>
+          <div className="bg-white w-[300px] p-1 mx-auto mt-4">
+            <h1 className='text-yellow-500 md:text-5xl text-4xl font-semibold text-center'>YOUR CITY</h1>
+          </div>
           <p className='pt-6 md:text-xl'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta alias porro, illum est blanditiis laudantium ipsam ullam voluptatibus beatae tempora eius voluptatem, expedita inventore illo rem dolorum ab fugiat dolor.</p>
           <div className="mt-6 flex justify-center">
             <button className='w-[120px] h-[45px] bg-yellow-500'>Our Menu</button>
